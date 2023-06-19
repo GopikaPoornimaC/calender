@@ -1,0 +1,52 @@
+
+
+h1 {
+    text-align: center;
+    color: rgb(24, 23, 23);
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.screen{
+    background-color: grey;
+    border: solid black 2px;
+    color: white;
+    font-size: medium;
+    width: 100%;
+    cursor: default;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+input [type='button']  :hover {
+    background-color: whitesmoke;
+    border-radius: 3px;
+}
+
+.operator , .number , .decimal , .clear , .equal{
+    padding: 5px;
+    color: black;
+    border: solid black 2px;
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.operator , .clear{
+    background-color:darksalmon;
+}
+.decimal{
+    background-color: azure;
+}
+.equal{
+    background-color:cadetblue;
+}
+
+.container{
+display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
